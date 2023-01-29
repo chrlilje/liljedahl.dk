@@ -1,0 +1,9 @@
+.full-page-image {
+  width: 100%;
+  height: 100vh; /* 100% of the viewport height */
+  object-fit: cover; /* scales image to fill the element */
+  position: absolute; /* removes any space around the image */
+  top: 0;
+  left: 0;
+  z-index: -1; /* move the image behind any other content */
+}
